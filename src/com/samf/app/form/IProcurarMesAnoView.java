@@ -138,6 +138,7 @@ public class IProcurarMesAnoView extends javax.swing.JInternalFrame {
             cbSetor.setSelectedItem("ACS");
             rbConcluido.setSelected(false);
             rbTramitado.setSelected(false);
+            idDemanda = null;
             inicializarTabela();
             enableFields(false);
         } else {

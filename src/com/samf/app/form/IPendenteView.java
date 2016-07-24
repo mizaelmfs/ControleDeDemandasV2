@@ -13,8 +13,6 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.util.Date;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
@@ -127,6 +125,7 @@ public final class IPendenteView extends javax.swing.JInternalFrame {
             cbSetor.setSelectedItem("ACS");
             rbConcluido.setSelected(false);
             rbTramitado.setSelected(false);
+            idDemanda = null;
             inicializarTabela();
         } else {
             JOptionPane.showMessageDialog(this, "Os campos estão vázios");
